@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const WrapperDiv = styled.div`
     padding: 0px 100px;
+    background: #02020D;
 `
 
 export const BannerText = styled.div`
@@ -11,10 +12,13 @@ export const BannerText = styled.div`
 
 export const BannerWrap = styled.div`
     display: flex;
+   
+
 `
 
-export const GreenBannerText = styled.h4`
+export const GreenBannerText = styled.span`
     color:  #D6FB41;
+    /* margin: 0; */
 `
 
 export const Ul = styled.ul`
@@ -25,6 +29,7 @@ export const Li = styled.li`
     list-style: none;
     text-decoration:none;
     padding-left: 24px;
+    color: #fff;
 `
 
 export const Nav = styled.nav`
@@ -50,4 +55,5 @@ export const Button = styled.button`
 
 export const BannerTextWrap = styled.div`
     margin: auto;
+    width: 80%;
 `
